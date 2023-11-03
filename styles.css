@@ -1,0 +1,38 @@
+.counter h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0;
+  font-weight:bold;
+  font-size: 200px;
+  color:skyblue;
+}
+
+.counter {
+  padding:0;
+  margin:0;
+  display:flex;
+  flex-direction: column;
+  height:100vh;
+  align-items:center;
+  justify-content: center;
+
+}
+
+button {
+  border: none;
+  color:cornflowerblue;
+  text-align: center;
+  text-decoration: none;
+  font-size: 50px;
+  cursor: pointer;
+  height:70px;
+  background-color:aliceblue;
+  border-radius: 10%;
+}
+
+.button-div {
+  width:100%;
+  display:flex;
+  justify-content: center;
+}
