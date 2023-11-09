@@ -5,7 +5,7 @@ $( document ).ready(function() {
   let myInterval;
   let isActive = false;
   const end = 100; // hardcoded for now, but can be taken from an input field
-  const speed = 200
+  const speed = 1500;
 
   const startCounter = (element,end,increment) => {
     isActive = true;
